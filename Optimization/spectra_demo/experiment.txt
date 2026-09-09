@@ -1,0 +1,24 @@
+EXPERIMENT METADATA
+===================
+Technique: UV-Vis absorption spectroscopy of a reaction mixture
+System: a desired PRODUCT and an unwanted BYPRODUCT form competitively;
+        each gives one UV-Vis peak (product ~540 nm, byproduct ~430 nm).
+
+OBJECTIVE: maximize selectivity = product_peak_area / byproduct_peak_area
+
+CONTROLLABLE PARAMETERS (and allowed instrument ranges):
+  - temperature_C: 5 to 100
+  - pH:            1 to 14
+
+GOAL: recommend the next (temperature_C, pH) to run that maximizes selectivity.
+
+PER-FILE CONDITIONS (filename, temperature_C, pH):
+  spectrum_T14_pH5p3.csv, 13.83, 5.34
+  spectrum_T15_pH2p4.csv, 15.18, 2.38
+  spectrum_T15_pH4p1.csv, 15.45, 4.11
+  spectrum_T26_pH3p9.csv, 26.49, 3.9
+  spectrum_T27_pH2p5.csv, 26.58, 2.46
+  spectrum_T27_pH5p6.csv, 27.03, 5.59
+  spectrum_T38_pH2p6.csv, 38.04, 2.64
+  spectrum_T38_pH3p9.csv, 38.28, 3.9
+  spectrum_T46_pH4p3.csv, 45.7, 4.35

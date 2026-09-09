@@ -1,0 +1,13 @@
+EXPERIMENT METADATA
+===================
+Technique: reaction screening (extracted peak areas per run)
+System: a desired PRODUCT and an unwanted BYPRODUCT form competitively;
+        each gives one UV-Vis peak (product ~540 nm, byproduct ~430 nm).
+
+OBJECTIVE: maximize selectivity = product_peak_area / byproduct_peak_area
+
+CONTROLLABLE PARAMETERS (and allowed instrument ranges):
+  - temperature_C: 5 to 100
+  - pH:            1 to 14
+
+GOAL: recommend the next (temperature_C, pH) to run that maximizes selectivity.

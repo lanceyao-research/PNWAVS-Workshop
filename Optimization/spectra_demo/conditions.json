@@ -1,0 +1,38 @@
+{
+  "spectrum_T15_pH2p4.csv": {
+    "temperature_C": 15.18,
+    "pH": 2.38
+  },
+  "spectrum_T15_pH4p1.csv": {
+    "temperature_C": 15.45,
+    "pH": 4.11
+  },
+  "spectrum_T14_pH5p3.csv": {
+    "temperature_C": 13.83,
+    "pH": 5.34
+  },
+  "spectrum_T27_pH2p5.csv": {
+    "temperature_C": 26.58,
+    "pH": 2.46
+  },
+  "spectrum_T26_pH3p9.csv": {
+    "temperature_C": 26.49,
+    "pH": 3.9
+  },
+  "spectrum_T27_pH5p6.csv": {
+    "temperature_C": 27.03,
+    "pH": 5.59
+  },
+  "spectrum_T38_pH2p6.csv": {
+    "temperature_C": 38.04,
+    "pH": 2.64
+  },
+  "spectrum_T38_pH3p9.csv": {
+    "temperature_C": 38.28,
+    "pH": 3.9
+  },
+  "spectrum_T46_pH4p3.csv": {
+    "temperature_C": 45.7,
+    "pH": 4.35
+  }
+}
